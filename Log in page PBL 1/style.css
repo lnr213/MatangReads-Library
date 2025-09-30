@@ -1,0 +1,78 @@
+ body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url(library5.jpg) center / cover no-repeat;
+            background-attachment: fixed;
+           
+}
+         
+
+        .login-container {
+            position: relative;
+            width: 380px;
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(15px);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
+            z-index: 10;
+            overflow: hidden;
+        }
+
+        .login-container h2 {
+            color: white;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #AE8625, #F7EF8A);
+            color: black;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor:pointer;
+            transition: 0.3s;
+        }
+
+        .login-container button:hover {
+            background: #5a0000;
+        }
+
+        .login-container .links {
+            margin-top: 15px;
+            font-size: 13px;
+        }
+
+        .login-container .links a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .login-container .links a:hover {
+            text-decoration: underline;
+        }
+
+        .error {
+            color: red;
+            font-size: 13px;
+            margin-top: 5px;
+        }

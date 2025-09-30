@@ -1,0 +1,108 @@
+<html>
+<head>
+  <title>Borrow-Library</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+<nav>
+  <div class="logo">MatangReads</div>
+  
+  <div class="nav-links">
+    <a href="homepage.html">Home</a>
+    <a href="books.html">Books</a>
+    <a href="borrow.html">Borrow</a>
+    <a href="Log in page PBL 1/index.html">Log Out</a>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search books..."><i class="fas fa-search"></i>
+    <button type="submit">Search</button>
+  </div>
+</nav>
+
+
+   <h1>Borrow or Request a Book</h1>
+  <div class="container">
+  <div class="form-borrows">
+    <!-- Borrow Available Book -->
+    <form>
+      <h2>Borrow Available Book</h2>
+
+      <label for="book1">Choose Book:</label>
+      <select id="book1" required>
+        <option value="">-- Select Book --</option>
+        <option>Harry Potter and the Goblet of Fire</option>
+        <option>Letters to God</option>
+        <option>The Cats We Meet Along the Way</option>
+        <option>The Graveyard Book</option>
+        <option>IT</option>
+        <option>Pet Sematary</option>
+        <option>The Shining</option>
+        <option>Home Is Where the Bodies Are</option>
+        <option>Elite Bunian: Api Bukit Tengkorak</option>
+        <option>Bayang Sofea</option>
+        <option>Hari-Hari Bersama Miyu</option>
+        <option>Jangan Kacau Aku Boleh Tak?</option>
+        <option>Dark Moon: The Blood Altar, Vol. 1</option>
+        <option>Spy X Family</option>
+        <option>Kaiju No 8</option>
+        <option>Sakamoto Days</option>
+      </select>
+
+      <label for="borrowDate">Borrow Date:</label>
+      <input type="date" id="borrowDate" required>
+
+      <label for="returnDate">Return Date:</label>
+      <input type="date" id="returnDate" required>
+
+      <label>
+        <input type="checkbox" required> I agree to the borrowing rules.
+      </label>
+
+      <div class="form-buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+    </div>
+
+    <!-- Request New Book -->
+    <div class="form-borrows">
+    <form>
+      <h2>Request New Book</h2>
+      <label for="title">Book Title:</label>
+      <input type="text" id="title" required>
+
+      <label for="author">Author:</label>
+      <input type="text" id="author">
+
+      <label for="category">Category:</label>
+      <select id="category" required>
+        <option value="">-- Select Category --</option>
+        <option>Fiction</option>
+        <option>Malay</option>
+        <option>Horror</option>
+        <option>Manga</option>
+        <option>Other</option>
+      </select>
+
+      <label for="notes">Notes (optional):</label>
+      <textarea id="notes" rows="3"></textarea>
+
+      <div class="form-buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+    </div>
+  </div>
+
+  </body>
+
+  <footer>
+  <p>© 2025 MatangReads Library</p>
+  </footer>
+  </html>
